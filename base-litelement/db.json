@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "email": "daniel@example.org",
+      "password": "$2a$10$2FRh0lumgMzFwFMDmwE3KO1mSXt2eB8GFTOS59gGj6DBuR/fS0u/6",
+      "name": "daniel",
+      "username": "daniel",
+      "id": 1,
+      "pets": [
+        1,
+        2
+      ]
+    }
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Camila",
+      "type": "Perro",
+      "description": "Ya no es gato, ahora es perro",
+      "age": "6",
+      "status": "adopted",
+      "createdAt": "28/10/2022",
+      "vacines": [
+        {
+          "id": 1,
+          "date": "23/05/2022",
+          "name": "Parvovirus",
+          "address": "México"
+        }
+      ],
+      "image": {
+        "src": "./img/perro.jpg"
+      },
+      "tpye": "Gato"
+    },
+    {
+      "name": "Lilo",
+      "type": "Gato",
+      "description": "Gato amarillo",
+      "age": "2",
+      "createdAt": "9/11/2022",
+      "image": {
+        "src": "./img/perro.jpg"
+      },
+      "id": 2
+    }
+  ]
+}
